@@ -14,4 +14,4 @@ def handleMessage(data):
     emit("new_message",data,broadcast=True)
 
 if __name__ == "__main__":
-    app.run(debug=True, host='127.0.0.1', port=5004)
+    app.run(debug=True)
